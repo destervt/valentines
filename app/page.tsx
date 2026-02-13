@@ -21,12 +21,12 @@ export default function Home() {
     setCoords({ x: `${x}%`, y: `${y}%` });
 
     const phrases = [
-      "Wrong button ❌",
-      "Are you sure 🤔?",
-      "But what if 🫣?",
-      "You're breaking my heart 💔",
-      "Pwetty please 🥺👉👈",
-      "Can't catch up? 😂"
+      "Не та кнопка ❌",
+      "Ты уверена 🤔?",
+      "А что, если.. 🫣?",
+      "Ты разбиваешь мне сердце 💔",
+      "Ну пазязя 🥺👉👈",
+      "Не можешь поймать? 😂"
     ]
 
     const randomIndex = Math.floor(Math.random() * phrases.length);
