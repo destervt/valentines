@@ -41,7 +41,7 @@ export default function Home() {
     <div className="container">
       <section>
         <div>
-          <p>♡ Will you be my Valentine? ♡</p>
+          <p>♡ Будешь моей любимой? ♡</p>
         </div>
         <div className="img-container">
           {image ? (
@@ -57,7 +57,7 @@ export default function Home() {
               className="yes-button button-base button-green"
               onMouseOver={handleYesBtn} onMouseOut={handleYesBtn}
             >
-              Yes
+              Да
             </button>
           </Link>
           <button className='no-button button-base button-red' style={coord ? { position: 'absolute', top: coord.x, right: coord.y } : undefined}
