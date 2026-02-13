@@ -12,7 +12,7 @@ interface Coordinates {
 export default function Home() {
   const [image, setImage] = useState(false);
   const [coord, setCoords] = useState<Coordinates | null>(null);
-  const [response, setResponse] = useState('No');
+  const [response, setResponse] = useState('Нет');
 
   const handleNoBtn = () => {
     const x = Math.random() * 60;
